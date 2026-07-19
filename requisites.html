@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Реквизиты и тарифы — Taska</title>
+<link rel="icon" href="icon-192.png">
+<style>
+  :root{--accent:#10b981;--accent-2:#0ea5e9;--text:#1f2937;--muted:#6b7280;--bg:#f9fafb;--panel:#fff;--line:#e5e7eb}
+  @media(prefers-color-scheme:dark){:root{--text:#e5e7eb;--muted:#9ca3af;--bg:#111827;--panel:#1f2937;--line:#374151}}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;color:var(--text);background:var(--bg);line-height:1.65}
+  header{background:linear-gradient(135deg,var(--accent),var(--accent-2));color:#fff;padding:40px 20px}
+  header .wrap{max-width:760px;margin:0 auto}
+  header h1{font-size:26px;margin-bottom:6px}
+  header p{opacity:.9;font-size:14px}
+  .back{display:inline-block;margin-top:24px;color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.5);border-radius:8px;padding:6px 14px;font-size:14px}
+  main{max-width:760px;margin:0 auto;padding:32px 20px 60px}
+  h2{font-size:19px;margin:28px 0 10px;color:var(--accent)}
+  p,li,td,th{font-size:15px;color:var(--text)}
+  table{border-collapse:collapse;width:100%;max-width:420px;margin:10px 0}
+  td,th{border:1px solid var(--line);padding:10px 14px;text-align:left;background:var(--panel)}
+  th{font-weight:700}
+  a{color:var(--accent-2)}
+  .muted{color:var(--muted);font-size:13px;margin-top:36px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Реквизиты и тарифы</h1>
+    <p>Taska — доска задач · подписка Taska Pro</p>
+    <a class="back" href="./">← Вернуться в приложение</a>
+  </div>
+</header>
+<main>
+  <h2>Продавец</h2>
+  <table>
+    <tr><th>Исполнитель</th><td>Семенов Павел Сергеевич (самозанятый, НПД)</td></tr>
+    <tr><th>ИНН</th><td>631802081361</td></tr>
+    <tr><th>E-mail</th><td><a href="mailto:semenovps.smkt@gmail.com">semenovps.smkt@gmail.com</a></td></tr>
+  </table>
+
+  <h2>Что продаётся</h2>
+  <p>Подписка <b>Taska Pro</b> — расширенные возможности приложения Taska: синхронизация данных между устройствами, полный архив задач, пресеты колонок, отчёты в Excel. Базовые функции приложения бесплатны.</p>
+
+  <h2>Тарифы</h2>
+  <table>
+    <tr><th>1 месяц</th><td>199 ₽</td></tr>
+    <tr><th>3 месяца</th><td>499 ₽</td></tr>
+    <tr><th>12 месяцев</th><td>999 ₽</td></tr>
+  </table>
+
+  <h2>Оплата и возвраты</h2>
+  <p>Оплата проходит через сервис ЮKassa банковской картой, СБП и другими доступными способами. Доступ к Pro включается автоматически после оплаты — на срок оплаченного периода, без автопродления. Если подписка не активировалась или возникли вопросы по возврату — напишите на <a href="mailto:semenovps.smkt@gmail.com">semenovps.smkt@gmail.com</a>, разберёмся и при необходимости вернём платёж.</p>
+
+  <p class="muted">См. также: <a href="privacy.html">политика конфиденциальности</a>. Обновлено: 20 июля 2026 года.</p>
+</main>
+</body>
+</html>
